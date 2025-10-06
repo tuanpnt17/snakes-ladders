@@ -36,179 +36,65 @@ let snakes = [
   [31, 20],
 ];
 const questions = [
-  // PHẦN 1: CƠ BẢN VỀ GIÁ TRỊ THẶNG DƯ
   {
-    text: "Trong công thức T' = T + t, giá trị t biểu thị:\nA. Lợi nhuận từ hoạt động kinh doanh\nB. Phần giá trị dôi ra sau quá trình sản xuất\nC. Chi phí đầu tư ban đầu của tư bản\nD. Giá trị hao mòn của tư liệu sản xuất",
+    text: "Dưới chủ nghĩa xã hội tôn giáo vẫn còn tồn tại do các nguyên nhân:\nA. Nhận thức, chính trị\nB. Nhận thức, kinh tế, tâm lý, chính trị, văn hóa\nC. Nhận thức, văn hóa, tư tưởng\nD. Nhận thức, kinh tế, văn hóa, tư tưởng",
     answer: false,
     correct: "B",
   },
-
   {
-    text: "Công thức T - H - T' khác với H - T - H ở điểm:\nA. T - H - T' nhằm tạo ra giá trị thặng dư\nB. H - T - H nhằm tích lũy tài sản\nC. T - H - T' dành cho người tiêu dùng\nD. H - T - H dành cho nhà sản xuất",
-    answer: false,
-    correct: "A",
-  },
-
-  {
-    text: "Hàng hóa trong công thức T - H - T' gồm:\nA. Nguyên liệu và sản phẩm hoàn thành\nB. Tư liệu sản xuất và sức lao động\nC. Máy móc thiết bị và công nghệ\nD. Vốn cố định và vốn lưu động",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Tiền trở thành tư bản khi nó được sử dụng để:\nA. Mua sắm hàng hóa tiêu dùng cá nhân\nB. Tích lũy và bảo toàn giá trị ban đầu\nC. Tạo ra lợi nhuận thông qua sản xuất\nD. Đầu tư vào các dự án dài hạn",
+    text: "Trong xã hội chủ nghĩa cần phải...\nA. Đấu tranh xóa bỏ tôn giáo\nB. Tạo điều kiện cho tôn giáo phát triển\nC. Đảm bảo tôn trọng quyền tự do tín ngưỡng và không tín ngưỡng của nhân dân\nD. Hạn chế sự phát triển của tôn giáo",
     answer: false,
     correct: "C",
   },
-
   {
-    text: "Giá trị thặng dư không phải từ mua rẻ bán đắt vì:\nA. Thị trường luôn cân bằng giữa cung và cầu\nB. Mua rẻ bán đắt chỉ chuyển giá trị chứ không tạo ra\nC. Luật pháp cấm hành vi mua rẻ bán đắt\nD. Người tiêu dùng không chấp nhận giá cao",
-    answer: false,
-    correct: "B",
-  },
-
-  // PHẦN 2: HÀNG HÓA SỨC LAO ĐỘNG
-  {
-    text: "Sức lao động theo C. Mác bao gồm:\nA. Năng lực thể chất và tinh thần để sản xuất\nB. Kỹ năng chuyên môn và kinh nghiệm làm việc\nC. Thời gian và cường độ lao động hàng ngày\nD. Trình độ học vấn và chuyên môn kỹ thuật",
-    answer: false,
-    correct: "A",
-  },
-
-  {
-    text: "Điều kiện để sức lao động trở thành hàng hóa:\nA. Người lao động tự do nhưng không có tư liệu sản xuất\nB. Người lao động có trình độ chuyên môn cao\nC. Xã hội có nhu cầu về sức lao động lành nghề\nD. Nhà nước cho phép tự do mua bán lao động",
-    answer: false,
-    correct: "A",
-  },
-
-  {
-    text: "Giá trị của sức lao động được xác định bởi:\nA. Mức độ khan hiếm của loại lao động đó\nB. Chi phí để duy trì và tái sản xuất sức lao động\nC. Năng suất lao động của người lao động\nD. Giá cả thị trường tại thời điểm giao dịch",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Đặc điểm quan trọng nhất của hàng hóa sức lao động:\nA. Có thể tạo ra giá trị lớn hơn bản thân nó\nB. Không thể tích trữ được như hàng hóa khác\nC. Gắn liền với con người không thể tách rời\nD. Giá trị thay đổi theo thời điểm trong ngày",
-    answer: false,
-    correct: "A",
-  },
-
-  {
-    text: "Người lao động bán sức lao động vì:\nA. Muốn tích lũy kinh nghiệm và kỹ năng\nB. Không có phương tiện sản xuất độc lập\nC. Được pháp luật bảo vệ quyền lợi\nD. Có cơ hội thăng tiến trong sự nghiệp",
-    answer: false,
-    correct: "B",
-  },
-
-  // PHẦN 3: TƯ BẢN BẤT BIẾN VÀ KHẢ BIẾN
-  {
-    text: "Tư bản bất biến trong quá trình sản xuất:\nA. Chuyển toàn bộ giá trị vào sản phẩm\nB. Chuyển một phần giá trị vào sản phẩm\nC. Tạo ra giá trị mới cho sản phẩm\nD. Không ảnh hưởng đến giá trị sản phẩm",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Tư bản khả biến được gọi là 'khả biến' vì:\nA. Có thể thay đổi hình thức đầu tư\nB. Giá trị có thể tăng giảm theo thị trường\nC. Có khả năng sinh ra giá trị thặng dư\nD. Dễ dàng chuyển đổi thành tiền mặt",
-    answer: false,
-    correct: "C",
-  },
-
-  {
-    text: "Trong ví dụ công ty ABC Software, tư bản bất biến gồm:\nA. Chỉ máy tính và thiết bị phần cứng\nB. Thiết bị, phần mềm và chi phí vận hành\nC. Lương của lập trình viên và quản lý\nD. Chi phí marketing và bán hàng",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Khác biệt cơ bản giữa tư bản bất biến và khả biến:\nA. Tư bản bất biến có giá trị cao hơn\nB. Tư bản khả biến dễ quản lý hơn\nC. Chỉ tư bản khả biến tạo ra giá trị thặng dư\nD. Tư bản bất biến bền vững hơn",
-    answer: false,
-    correct: "C",
-  },
-
-  // PHẦN 4: THỜI GIAN LAO ĐỘNG
-  {
-    text: "Thời gian lao động tất yếu là khoảng thời gian:\nA. Pháp luật quy định tối thiểu phải làm việc\nB. Cần thiết để tạo ra giá trị bằng tiền lương\nC. Lao động với hiệu suất cao nhất\nD. Được trả lương theo quy định hợp đồng",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Trong ví dụ ABC Software, thời gian lao động thặng dư là:\nA. 2 giờ cuối ngày làm việc\nB. 4 giờ không được trả công thêm\nC. Thời gian làm thêm ngoài giờ quy định\nD. Thời gian nghỉ giải lao trong ca làm",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Giá trị thặng dư được tạo ra trong:\nA. Cả thời gian lao động tất yếu và thặng dư\nB. Chỉ trong thời gian lao động tất yếu\nC. Chỉ trong thời gian lao động thặng dư\nD. Thời gian nghỉ ngơi giữa các ca làm việc",
-    answer: false,
-    correct: "C",
-  },
-
-  {
-    text: "Khi năng suất tăng mà lương không đổi:\nA. Thời gian lao động tất yếu giảm, thặng dư tăng\nB. Thời gian lao động tất yếu tăng, thặng dư giảm\nC. Cả hai loại thời gian đều không thay đổi\nD. Thời gian lao động thặng dư giảm về không",
-    answer: false,
-    correct: "A",
-  },
-
-  // PHẦN 5: BẢN CHẤT VÀ Ý NGHĨA
-  {
-    text: "Bản chất của giá trị thặng dư theo C. Mác:\nA. Kết quả của sự thông minh kinh doanh\nB. Phần lao động không được trả công\nC. Lợi nhuận từ đầu tư công nghệ cao\nD. Thu nhập từ rủi ro kinh doanh",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Giá trị thặng dư thể hiện mối quan hệ:\nA. Cạnh tranh giữa các doanh nghiệp\nB. Hợp tác giữa tư bản và lao động\nC. Phân chia lợi nhuận không đều\nD. Bóc lột giữa chủ tư bản và người lao động",
+    text: "Giữa chủ nghĩa Mác - Lênin và hệ tư tưởng tôn giáo khác nhau ở điểm nào?\nA. Về thế giới quan\nB. Về nhân sinh quan\nC. Ở con đường mưu cầu hạnh phúc cho nhân dân\nD. Các phương án trả lời đều đúng",
     answer: false,
     correct: "D",
   },
-
   {
-    text: "Tiền lương không phản ánh đầy đủ giá trị sức lao động vì:\nA. Chỉ bù đắp chi phí tái sản xuất sức lao động\nB. Bị ảnh hưởng bởi lạm phát và biến động giá\nC. Không tính đến rủi ro và áp lực công việc\nD. Phụ thuộc vào khả năng tài chính doanh nghiệp",
+    text: "Quan điểm của Đảng và nhà nước ta về vấn đề tôn giáo được quán triệt như thế nào?\nA. Thủ tiêu tôn giáo\nB. Khuyến khích tôn giáo phát triển\nC. Sống tốt đời, đẹp đạo\nD. Tất cả các phương án trả lời đều đúng",
+    answer: false,
+    correct: "C",
+  },
+  {
+    text: "Nguồn gốc cơ bản nào cho sự ra đời của tôn giáo?\nA. Nguyên nhân nhận thức, kinh tế, chính trị- xã hội, văn hóa, tình cảm\nB. Nguyên nhân nhận thức, tự nhiên, tâm lý, chính trị- xã hội, văn hóa\nC. Nguyên nhân nhận thức, kinh tế, tâm lý\nD. Nguyên nhân nhận thức, kinh tế, tâm lý, chính trị- xã hội, văn hóa",
+    answer: false,
+    correct: "C",
+  },
+  {
+    text: "Nguồn gốc tự nhiên, kinh tế - xã hội của tôn giáo là gì?\nA. Sự giới hạn trong nhận thức của con người về tự nhiên, xã hội\nB. Sự bất lực của con người trước tự nhiên, xã hội\nC. Sự xuất hiện của các giai cấp, tầng lớp xã hội\nD. Sự sợ hãi trước các hiện tượng tự nhiên, xã hội",
+    answer: false,
+    correct: "B",
+  },
+  {
+    text: "Nguồn gốc tâm lý của tôn giáo là gì?\nA. Sự giới hạn trong nhận thức của con người về tự nhiên, xã hội\nB. Sự bất lực của con người trước tự nhiên, xã hội\nC. Sự xuất hiện của các giai cấp, tầng lớp xã hội\nD. Sự sợ hãi trước các hiện tượng tự nhiên, xã hội",
+    answer: false,
+    correct: "D",
+  },
+  {
+    text: "Tính chất chính trị của tôn giáo xuất hiện khi nào?\nA. Khi con người xuất hiện\nB. Khi xã hội có sự phân chia giai cấp\nC. Khi các tôn giáo chia tách thành nhiều hệ phái khác nhau\nD. Khi các dân tộc sử dụng tôn giáo để phục vụ lợi ích của mình",
+    answer: false,
+    correct: "B",
+  },
+  {
+    text: "Tính lịch sử của tôn giáo được biểu hiện như thế nào?\nA. Khả năng biến đổi trong những giai đoạn lịch sử nhất định để thích nghi với nhiều chế độ chính trị - xã hội\nB. Tôn giáo chỉ tồn tại trong một giai đoạn lịch sử nhất định\nC. Trong quá trình vận động, tôn giáo không thích nghi được sự thay đổi của xã hội\nD. Tôn giáo sẽ tiêu vong trong xã hội xã hội chủ nghĩa",
     answer: false,
     correct: "A",
   },
-
   {
-    text: "Theo C. Mác, nguồn gốc lợi nhuận chủ yếu từ:\nA. Khả năng quản lý hiệu quả của doanh nghiệp\nB. Đầu tư vào công nghệ và thiết bị hiện đại\nC. Một phần giá trị thặng dư từ sức lao động\nD. Lợi thế cạnh tranh trên thị trường",
-    answer: false,
-    correct: "C",
-  },
-
-  // PHẦN 6: VẤN ĐỀ THỰC TIỄN
-  {
-    text: "Để cải thiện vị thế, người lao động nên:\nA. Chấp nhận mức lương hiện tại để giữ việc\nB. Nâng cao kỹ năng để tăng giá trị sức lao động\nC. Làm nhiều giờ hơn để tăng thu nhập\nD. Chuyển đổi công việc thường xuyên",
+    text: "Vì sao tôn giáo mang tính quần chúng?\nA. Vì tôn giáo do con người sáng tạo ra\nB. Vì tôn giáo đáp ứng được nhu cầu tinh thần của nhân dân\nC. Vì tôn giáo ra đời là để giải thích cho con người các hiện tượng tự nhiên, xã hội và tư duy\nD. Vì tôn giáo là công cụ để giai cấp thống trị chi phối quần chúng",
     answer: false,
     correct: "B",
   },
-
   {
-    text: "Chính sách nào giúp bảo vệ người lao động:\nA. Giảm thuế doanh nghiệp để tăng đầu tư\nB. Lương tối thiểu và bảo hiểm xã hội\nC. Khuyến khích cạnh tranh tự do\nD. Tăng cường xuất khẩu lao động",
+    text: "Tôn giáo là một hiện tượng xã hội - văn hoá do ai sáng tạo ra?\nA. Con người\nB. Thần linh\nC. Giai cấp thống trị\nD. Chủ nghĩa Mác - Lênin",
     answer: false,
-    correct: "B",
+    correct: "A",
   },
-
   {
-    text: "Hiện tượng 'làm nhiều mà không đủ sống' giải thích bằng:\nA. Chi phí sinh hoạt tăng nhanh hơn lương\nB. Người lao động không biết tiết kiệm\nC. Thời gian lao động thặng dư tăng\nD. Thuế và phí tăng cao",
+    text: "Tại sao tôn giáo vẫn còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?\nA. Khoa học chưa phát triển\nB. Trình độ dân trí của con người còn thấp\nC. Tôn giáo đáp ứng được mọi nhu cầu văn hóa tinh thần của nhân dân\nD. Tôn giáo phần nào vẫn còn đáp ứng được nhu cầu văn hóa tinh thần của nhân dân",
     answer: false,
-    correct: "C",
-  },
-
-  {
-    text: "Chênh lệch tăng năng suất và tăng lương phản ánh:\nA. Sự cạnh tranh không lành mạnh\nB. Chính sách tiền lương chưa hợp lý\nC. Giá trị thặng dư bị chiếm đoạt tăng\nD. Trình độ quản lý doanh nghiệp thấp",
-    answer: false,
-    correct: "C",
-  },
-
-  // PHẦN 7: TỔNG HỢP
-  {
-    text: "Nguồn gốc của giá trị thặng dư là:\nA. Sự khác biệt giá cả giữa các thị trường\nB. Lao động sống trong thời gian thặng dư\nC. Đầu tư vào máy móc thiết bị hiện đại\nD. Khả năng tổ chức sản xuất hiệu quả",
-    answer: false,
-    correct: "B",
-  },
-
-  {
-    text: "Điều đặc biệt của hàng hóa sức lao động:\nA. Không thể tách rời khỏi con người\nB. Tạo ra nhiều giá trị hơn chi phí mua nó\nC. Có thể được đào tạo và nâng cao\nD. Chịu ảnh hưởng của yếu tố tâm lý",
-    answer: false,
-    correct: "B",
+    correct: "D",
   },
 ];
 
