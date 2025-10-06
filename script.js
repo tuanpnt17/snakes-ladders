@@ -57,7 +57,7 @@ const questions = [
     correct: "C",
   },
   {
-    text: "Nguồn gốc cơ bản nào cho sự ra đời của tôn giáo?\nA. Nguyên nhân nhận thức, kinh tế, chính trị- xã hội, văn hóa, tình cảm\nB. Nguyên nhân nhận thức, tự nhiên, tâm lý, chính trị- xã hội, văn hóa\nC. Nguyên nhân nhận thức, kinh tế, tâm lý\nD. Nguyên nhân nhận thức, kinh tế, tâm lý, chính trị- xã hội, văn hóa",
+    text: "Nguồn gốc cơ bản nào cho sự ra đời của tôn giáo?\nA. Nguyên nhân nhận thức, kinh tế, chính trị- xã hội, văn hóa, tình cảm\nB. Nguyên nhân nhận thức, tự nhiên, tâm lý, chính trị- xã hội, văn hóa\nC. Nguyên nhân nhận thức; tâm lý; tự nhiên, kinh tế - xã hội\nD. Nguyên nhân nhận thức, kinh tế, tâm lý, chính trị- xã hội, văn hóa",
     answer: false,
     correct: "C",
   },
@@ -95,6 +95,46 @@ const questions = [
     text: "Tại sao tôn giáo vẫn còn tồn tại trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?\nA. Khoa học chưa phát triển\nB. Trình độ dân trí của con người còn thấp\nC. Tôn giáo đáp ứng được mọi nhu cầu văn hóa tinh thần của nhân dân\nD. Tôn giáo phần nào vẫn còn đáp ứng được nhu cầu văn hóa tinh thần của nhân dân",
     answer: false,
     correct: "D",
+  },
+  {
+    text: "Phần lớn các tín đồ tôn giáo ở nước ta có đặc điểm chung là gì?\nA. Là giai cấp yếu thế, có cuộc sống cơ cực, tin vào tôn giáo như một yếu tố giải thoát\nB. Có ý thức chống lại chủ nghĩa duy vật biện chứng\nC. Tham gia vào các phong trào đấu tranh chống chính quyền\nD. Là nhân dân lao động có lòng yêu nước, tinh thần dân tộc",
+    answer: false,
+    correct: "D",
+  },
+  {
+    text: "Đâu là một tôn giáo nội sinh của Việt Nam?\nA. Tin lành\nB. Đạo Cao đài\nC. Hội Thánh Đức chúa trời\nD. Phật giáo",
+    answer: false,
+    correct: "B",
+  },
+  {
+    text: "Nội dung cốt lõi của công tác tôn giáo ở nước ta hiện nay là gi?\nA. Công tác giáo dục chủ nghĩa duy vật biện chứng\nB. Công tác cảm hóa giáo dân\nC. Công tác vận động quần chúng\nD. Cộng tác điều hòa mâu thuẫn giữa các tôn giáo",
+    answer: false,
+    correct: "C",
+  },
+  {
+    text: "Tôn giáo nào du nhập vào Việt Nam mà không chịu ảnh hưởng của bản sắc văn hóa Việt Nam?\nA. Công giáo\nB. Hồi giáo\nC. Phật giáo\nD. Không có",
+    answer: false,
+    correct: "D",
+  },
+  {
+    text: "Có mấy nguồn gốc tôn giáo?\nA. 2\nB. 4\nC. 3\nD. 5",
+    answer: false,
+    correct: "C",
+  },
+  {
+    text: "Loại hình tôn giáo mà đối tượng thờ phụng là những vị thần của một dân tộc; ảnh hưởng của vị thần đó chỉ giới hạn chủ yếu trong phạm vi một dân tộc nhất định là nội dung thể hiện khái niệm\nA. Tôn giáo vùng miền\nB. Tôn giáo khu vực\nC. Tôn giáo dân tộc\nD. Tôn giáo quốc tế",
+    answer: false,
+    correct: "C",
+  },
+  {
+    text: "Loại hình tôn giáo mà con người thể hiện niềm tin vào khả năng tác động đến các hiện tượng xuất hiện trong tự nhiên, thông qua những hành động như cầu khấn, phù phép, bùa chú là biểu hiện của\nA. Tô tem giáo\nB. Sa man giáo\nC. Bái vật giáo\nD. Ma thuật giáo",
+    answer: false,
+    correct: "D",
+  },
+  {
+    text: "Loại hình tôn giáo mà ở đó người ta tôn thờ và có những hành vi thế hiện niềm tin, sự tôn thờ một số vật như hòn đá, gốc cây, bức tường,... có thể có những thuộc tính siêu nhiên là biểu hiện của\nA. Tô tem giáo\nB. Sa man giáo\nC. Bái vật giáo\nD. Ma thuật giáo",
+    answer: false,
+    correct: "C",
   },
 ];
 
